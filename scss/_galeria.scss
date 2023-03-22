@@ -1,0 +1,32 @@
+
+
+/*Aquí inicia la galeria*/
+.gallery-wrap {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70vh;
+}
+
+.item {
+    flex: 1;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    transition: flex 0.8s ease;
+}
+
+.item:hover {
+    flex: 7;
+}
+
+
+.item-1 {
+    background-image: url('../ASSETS/HOMBRE/PLAYERA-HOMBRE-WHAT-DO-YOU-LIVE-FOR.jpg');
+}
+
+.item-2 {
+    background-image: url('../ASSETS/WHAT-DO-YOU-LIVE-FOR-MIXTA.jpg');
+}
+

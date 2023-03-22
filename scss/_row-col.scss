@@ -1,0 +1,47 @@
+
+.row {
+    clear: both;
+    padding: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.col {
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.row .col {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+    background: none;
+    padding: 2%;
+}
+
+.row.col:first-child {
+    margin-left: 0;
+}
+
+
+.row .col3 {
+    width: 40%;
+}
+
+
+@media only screen and (max-width: 480px) {
+    .col {
+        margin: 1% 0 1% 0%;
+        margin-left: 0 !important;
+    }
+
+    .row .col3,
+    .row .col4 {
+        width: 100%;
+    }
+}

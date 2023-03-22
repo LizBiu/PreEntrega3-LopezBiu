@@ -1,0 +1,32 @@
+
+.suscribir {
+    color: black;
+    display: block;
+    margin-inline: 40px;
+    font-size: 100%;
+    background-color: rgba(183, 183, 183, 0.179);
+    text-align: center;
+    padding: .40%;
+}
+
+
+.Créditos {
+    text-align: center;
+    font-size: smaller;
+    color: brown;
+}
+
+.carrito {
+    width: min-content;
+    vertical-align: middle;
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: transparent;
+    padding: .75rem 0.75rem;
+    justify-content: right;
+}
+

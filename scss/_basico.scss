@@ -1,0 +1,91 @@
+
+main {
+    text-align: center;
+}
+
+nav ul li {
+    align-items: center;
+    text-align: center;
+    display: inline-block;
+    margin-inline: 20px;
+    list-style: none;
+    font-size: 16px;
+}
+
+a {
+    color: black;
+}
+
+img {
+    border-style: none;
+    display: block;
+}
+
+.PRECIO {
+    color: black;
+    font-size: x-large;
+}
+
+.TALLAS {
+    font-size: small;
+    color: rgba(101, 101, 101, 0.956)
+}
+
+
+
+h1 {
+    position: relative;
+    margin-bottom: 45px;
+    font-family: 'Oswald', sans-serif;
+    font-size: 44px;
+    text-transform: uppercase;
+}
+
+
+h2,
+h5,
+h4,
+h6 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    font-size: medium;
+}
+
+head {
+    background: rgba(0, 0, 0, 0.7);
+    width: 100%;
+    display: inline-block;
+    z-index: 100;
+}
+
+body {
+    margin: 0;
+    font-size: 1rem;
+    color: #212529;
+}
+
+header {
+    display: block;
+}
+
+
+#final {
+    width: 100%;
+    height: 80px;
+    display: block;
+    align-items: center;
+    align-content: center;
+}
+
+#final.li {
+    list-style: none;
+    display: list-item;
+    margin-inline: 40px;
+    font-size: 20%;
+}
+
+ul,
+li {
+    margin: 0px;
+    list-style-type: none;
+}

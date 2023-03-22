@@ -1,0 +1,111 @@
+$font-principal: 'Poppins', sans-serif;
+
+* {
+    font-family: $font-principal ;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+}
+
+@import "_basico";
+@import "btn";
+@import "container";
+@import "drop";
+@import "footer";
+@import "form";
+@import "funciones";
+@import "galeria";
+@import "menu-hamburguesa";
+@import "row-col";
+
+
+
+/*Aquí inicia el primer bloque*/
+.mt-md-0,
+.my-md-0 {
+    margin-top: 0;
+}
+
+.shadow {
+    border-radius: 0.12rem;
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.d-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.d-inline-flex {
+    display: -webkit-inline-box;
+    display: -webkit-inline-flex;
+    display: -ms-inline-flexbox;
+    display: inline-flex;
+}
+
+
+.embed-responsive {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    overflow: hidden;
+}
+
+.embed-responsive::before {
+    display: block;
+    content: "";
+}
+
+
+/*Aquí va el CSS de web*/
+.bloque {
+    margin-bottom: 1.5rem;
+}
+
+
+/*Aquí inicia el contenido de Mixto*/
+
+.producto-flex {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+/*valores sass*/
+$white: #F5F5F5;
+$light: #c9c2ad;
+$dark: #4E4E4E;
+$base: rgb(209, 127, 20);
+
+/*card producto*/
+.desc {
+    letter-spacing: 0;
+    margin-bottom: 17px;
+    color: $base;
+    font-size: .8rem;
+}
+
+/*card-body*/
+.card,
+.card-footer,
+.card-group {
+    border: none;
+    background-color: none;
+    outline: none;
+    
+}
+
+/*sass example*/
+$dark-theme: true;
+
+@if $dark-theme {
+  $primary-color: darken($primary-color, 60%);
+  $accent-color: lighten($accent-color, 60%);
+}
